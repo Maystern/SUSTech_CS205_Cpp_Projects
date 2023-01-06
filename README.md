@@ -15,7 +15,8 @@
 | Project 2 | 95       | 88       | 84.38    | Great work! You have worked hard and <br/>put a lot of time into the project. Hope you enjoy it. :) |
 | Project 3 | 87       | 82       | 80.32    | It will be better if Matrix::rows is size_t.                 |
 | Project 4 | 98       | 85       | 83.39    | Awesome!                                                     |
-| Project 5 | 90       | 83       | 78.71    | 在循环里高频次调用getDataValue ()，可能很伤效率。<br/>getDataValue()里面只有一行代码，是inline，编译器可能优化掉。<br/>但最好还是只调用一次，将返回值存在一个局部变量里。|
+| Project 5 | 90       | 83       | 78.71    | 在循环里高频次调用getDataValue ()，可能很伤效率。<br/>getDataValue()里面只有一行代码，是inline，编译器可能优化掉。<br/>但最好还是只调用一次，将返回值存在一个局部变量里。. |
+| 平均值    | 92.6     | 84.6     | 82.15    | -                                                            |
 
 ## 课程成绩
 
