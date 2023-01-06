@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic CMakeFiles/matmulTest.dir/matmul.o CMakeFiles/matmulTest.dir/matrix.o CMakeFiles/matmulTest.dir/test.o -o matmulTest  -lopenblas 

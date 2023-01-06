@@ -1,0 +1,5 @@
+project(proejct03)
+add_subdirectory(src bin)
+install(FILES COPYRIGHT README.md DESTINATION share/doc/cmake)
+install(PROGRAMS Run_Matrix.sh DESTINATION bin)
+install(DIRECTORY doc/ DESTINATION share/doc/cmake)

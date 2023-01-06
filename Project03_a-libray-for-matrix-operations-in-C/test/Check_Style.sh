@@ -1,0 +1,1 @@
+python cpplint.py ../src/*

@@ -1,0 +1,5 @@
+/home/cpp_fall2022/project05/build/CMakeFiles/edit_cache.dir
+/home/cpp_fall2022/project05/build/CMakeFiles/rebuild_cache.dir
+/home/cpp_fall2022/project05/build/bin/CMakeFiles/matrixClassTest.dir
+/home/cpp_fall2022/project05/build/bin/CMakeFiles/edit_cache.dir
+/home/cpp_fall2022/project05/build/bin/CMakeFiles/rebuild_cache.dir

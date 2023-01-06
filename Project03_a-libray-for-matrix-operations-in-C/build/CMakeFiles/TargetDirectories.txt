@@ -1,0 +1,14 @@
+/home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build/CMakeFiles/edit_cache.dir
+/home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build/CMakeFiles/rebuild_cache.dir
+/home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build/CMakeFiles/list_install_components.dir
+/home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build/CMakeFiles/install.dir
+/home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build/CMakeFiles/install/local.dir
+/home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build/CMakeFiles/install/strip.dir
+/home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build/bin/CMakeFiles/matrix.dir
+/home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build/bin/CMakeFiles/matrix_demo.dir
+/home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build/bin/CMakeFiles/edit_cache.dir
+/home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build/bin/CMakeFiles/rebuild_cache.dir
+/home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build/bin/CMakeFiles/list_install_components.dir
+/home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build/bin/CMakeFiles/install.dir
+/home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build/bin/CMakeFiles/install/local.dir
+/home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build/bin/CMakeFiles/install/strip.dir

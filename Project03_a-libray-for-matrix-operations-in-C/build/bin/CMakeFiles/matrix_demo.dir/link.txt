@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic CMakeFiles/matrix_demo.dir/main.o -o matrix_demo   -L/home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build/bin  -Wl,-rpath,/home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build/bin libmatrix.so -lm 
