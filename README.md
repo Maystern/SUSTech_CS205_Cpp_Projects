@@ -9,7 +9,7 @@
 - Project04 matrix multiplication in C
 - Project05 a class for matrices
 
-| 项目编号  | 项目成绩 | 中位成绩 | 平均成绩 | 教师评价                                                     |
+| 项目  | 项目成绩 | 中位成绩 | 平均成绩 | 教师评价                                                     |
 | --------- | -------- | -------- | -------- | ------------------------------------------------------------ |
 | Project 1 | 93       | 85       | 83.95    | The report is good.                                          |
 | Project 2 | 95       | 88       | 84.38    | Great work! You have worked hard and <br/>put a lot of time into the project. Hope you enjoy it. :) |
