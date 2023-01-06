@@ -1,4 +1,4 @@
-# SUSTech_cpp_Projects
+# SUSTech_CS205_cpp_Projects
 
 ## 课程简介
 本课程是南方科技大学 SUSTech CS205 C/C++程序设计 (C/C++ Program Design) 课程，该课程包含五个项目：
