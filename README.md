@@ -29,7 +29,7 @@
 
 ## 项目说明
 
-### A Simple Calculator
+### Project 1: A Simple Calculator
 
 Implement a calculator which can multiply two numbers.
 
