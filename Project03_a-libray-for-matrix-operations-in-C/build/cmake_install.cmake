@@ -1,4 +1,4 @@
-# Install script for directory: /home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C
+# Install script for directory: /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,22 +44,22 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/cmake" TYPE FILE FILES
-    "/home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/COPYRIGHT"
-    "/home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/README.md"
+    "/home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/COPYRIGHT"
+    "/home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/README.md"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE PROGRAM FILES "/home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/Run_Matrix.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE PROGRAM FILES "/home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/Run_Matrix.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/cmake" TYPE DIRECTORY FILES "/home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/doc/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/cmake" TYPE DIRECTORY FILES "/home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/doc/")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build/bin/cmake_install.cmake")
+  include("/home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/build/bin/cmake_install.cmake")
 
 endif()
 
@@ -71,5 +71,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

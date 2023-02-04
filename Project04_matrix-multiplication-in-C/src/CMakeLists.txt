@@ -9,6 +9,6 @@ add_definitions(-mavx2)
 # 使用arm指令集NEON优化，-DUse_arm_NEON
 add_definitions(-O3)
 # 不开启任何优化：请注释
-# 使用 -O1 -O2 -O3 -O4 四级别优化
+# 使用 -O0 -O1 -O2 -O3 四级别优化
 add_executable(matmulTest matmul.c matrix.c test.c)
 target_link_libraries(matmulTest openblas)

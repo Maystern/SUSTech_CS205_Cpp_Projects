@@ -1,4 +1,4 @@
-# Install script for directory: /home/cpp_fall2022/project02/src
+# Install script for directory: /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

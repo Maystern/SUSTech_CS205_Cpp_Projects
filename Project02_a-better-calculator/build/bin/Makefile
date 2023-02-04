@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cpp_fall2022/project02
+CMAKE_SOURCE_DIR = /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cpp_fall2022/project02/build
+CMAKE_BINARY_DIR = /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/cpp_fall2022/project02/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/cpp_fall2022/project02/build/CMakeFiles /home/cpp_fall2022/project02/build/bin//CMakeFiles/progress.marks
-	cd /home/cpp_fall2022/project02/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cpp_fall2022/project02/build/CMakeFiles 0
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/build/CMakeFiles /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/build/bin//CMakeFiles/progress.marks
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/cpp_fall2022/project02/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/clean
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/cpp_fall2022/project02/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/preinstall
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/cpp_fall2022/project02/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/preinstall
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/cpp_fall2022/project02/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 bin/CMakeFiles/calculator.dir/rule:
-	cd /home/cpp_fall2022/project02/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/CMakeFiles/calculator.dir/rule
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/CMakeFiles/calculator.dir/rule
 .PHONY : bin/CMakeFiles/calculator.dir/rule
 
 # Convenience name for target.
@@ -172,97 +172,97 @@ calculator: bin/CMakeFiles/calculator.dir/rule
 
 # fast build rule for target.
 calculator/fast:
-	cd /home/cpp_fall2022/project02/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/calculator.dir/build.make bin/CMakeFiles/calculator.dir/build
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/calculator.dir/build.make bin/CMakeFiles/calculator.dir/build
 .PHONY : calculator/fast
 
 # target to build an object file
 cpp/BigNumber.o:
-	cd /home/cpp_fall2022/project02/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/calculator.dir/build.make bin/CMakeFiles/calculator.dir/cpp/BigNumber.o
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/calculator.dir/build.make bin/CMakeFiles/calculator.dir/cpp/BigNumber.o
 .PHONY : cpp/BigNumber.o
 
 # target to preprocess a source file
 cpp/BigNumber.i:
-	cd /home/cpp_fall2022/project02/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/calculator.dir/build.make bin/CMakeFiles/calculator.dir/cpp/BigNumber.i
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/calculator.dir/build.make bin/CMakeFiles/calculator.dir/cpp/BigNumber.i
 .PHONY : cpp/BigNumber.i
 
 # target to generate assembly for a file
 cpp/BigNumber.s:
-	cd /home/cpp_fall2022/project02/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/calculator.dir/build.make bin/CMakeFiles/calculator.dir/cpp/BigNumber.s
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/calculator.dir/build.make bin/CMakeFiles/calculator.dir/cpp/BigNumber.s
 .PHONY : cpp/BigNumber.s
 
 # target to build an object file
 cpp/Calculator.o:
-	cd /home/cpp_fall2022/project02/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/calculator.dir/build.make bin/CMakeFiles/calculator.dir/cpp/Calculator.o
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/calculator.dir/build.make bin/CMakeFiles/calculator.dir/cpp/Calculator.o
 .PHONY : cpp/Calculator.o
 
 # target to preprocess a source file
 cpp/Calculator.i:
-	cd /home/cpp_fall2022/project02/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/calculator.dir/build.make bin/CMakeFiles/calculator.dir/cpp/Calculator.i
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/calculator.dir/build.make bin/CMakeFiles/calculator.dir/cpp/Calculator.i
 .PHONY : cpp/Calculator.i
 
 # target to generate assembly for a file
 cpp/Calculator.s:
-	cd /home/cpp_fall2022/project02/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/calculator.dir/build.make bin/CMakeFiles/calculator.dir/cpp/Calculator.s
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/calculator.dir/build.make bin/CMakeFiles/calculator.dir/cpp/Calculator.s
 .PHONY : cpp/Calculator.s
 
 # target to build an object file
 cpp/Constant.o:
-	cd /home/cpp_fall2022/project02/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/calculator.dir/build.make bin/CMakeFiles/calculator.dir/cpp/Constant.o
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/calculator.dir/build.make bin/CMakeFiles/calculator.dir/cpp/Constant.o
 .PHONY : cpp/Constant.o
 
 # target to preprocess a source file
 cpp/Constant.i:
-	cd /home/cpp_fall2022/project02/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/calculator.dir/build.make bin/CMakeFiles/calculator.dir/cpp/Constant.i
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/calculator.dir/build.make bin/CMakeFiles/calculator.dir/cpp/Constant.i
 .PHONY : cpp/Constant.i
 
 # target to generate assembly for a file
 cpp/Constant.s:
-	cd /home/cpp_fall2022/project02/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/calculator.dir/build.make bin/CMakeFiles/calculator.dir/cpp/Constant.s
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/calculator.dir/build.make bin/CMakeFiles/calculator.dir/cpp/Constant.s
 .PHONY : cpp/Constant.s
 
 # target to build an object file
 cpp/Exception.o:
-	cd /home/cpp_fall2022/project02/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/calculator.dir/build.make bin/CMakeFiles/calculator.dir/cpp/Exception.o
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/calculator.dir/build.make bin/CMakeFiles/calculator.dir/cpp/Exception.o
 .PHONY : cpp/Exception.o
 
 # target to preprocess a source file
 cpp/Exception.i:
-	cd /home/cpp_fall2022/project02/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/calculator.dir/build.make bin/CMakeFiles/calculator.dir/cpp/Exception.i
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/calculator.dir/build.make bin/CMakeFiles/calculator.dir/cpp/Exception.i
 .PHONY : cpp/Exception.i
 
 # target to generate assembly for a file
 cpp/Exception.s:
-	cd /home/cpp_fall2022/project02/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/calculator.dir/build.make bin/CMakeFiles/calculator.dir/cpp/Exception.s
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/calculator.dir/build.make bin/CMakeFiles/calculator.dir/cpp/Exception.s
 .PHONY : cpp/Exception.s
 
 # target to build an object file
 cpp/NumberCheck.o:
-	cd /home/cpp_fall2022/project02/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/calculator.dir/build.make bin/CMakeFiles/calculator.dir/cpp/NumberCheck.o
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/calculator.dir/build.make bin/CMakeFiles/calculator.dir/cpp/NumberCheck.o
 .PHONY : cpp/NumberCheck.o
 
 # target to preprocess a source file
 cpp/NumberCheck.i:
-	cd /home/cpp_fall2022/project02/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/calculator.dir/build.make bin/CMakeFiles/calculator.dir/cpp/NumberCheck.i
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/calculator.dir/build.make bin/CMakeFiles/calculator.dir/cpp/NumberCheck.i
 .PHONY : cpp/NumberCheck.i
 
 # target to generate assembly for a file
 cpp/NumberCheck.s:
-	cd /home/cpp_fall2022/project02/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/calculator.dir/build.make bin/CMakeFiles/calculator.dir/cpp/NumberCheck.s
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/calculator.dir/build.make bin/CMakeFiles/calculator.dir/cpp/NumberCheck.s
 .PHONY : cpp/NumberCheck.s
 
 # target to build an object file
 cpp/main.o:
-	cd /home/cpp_fall2022/project02/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/calculator.dir/build.make bin/CMakeFiles/calculator.dir/cpp/main.o
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/calculator.dir/build.make bin/CMakeFiles/calculator.dir/cpp/main.o
 .PHONY : cpp/main.o
 
 # target to preprocess a source file
 cpp/main.i:
-	cd /home/cpp_fall2022/project02/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/calculator.dir/build.make bin/CMakeFiles/calculator.dir/cpp/main.i
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/calculator.dir/build.make bin/CMakeFiles/calculator.dir/cpp/main.i
 .PHONY : cpp/main.i
 
 # target to generate assembly for a file
 cpp/main.s:
-	cd /home/cpp_fall2022/project02/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/calculator.dir/build.make bin/CMakeFiles/calculator.dir/cpp/main.s
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/calculator.dir/build.make bin/CMakeFiles/calculator.dir/cpp/main.s
 .PHONY : cpp/main.s
 
 # Help Target
@@ -307,6 +307,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/cpp_fall2022/project02/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

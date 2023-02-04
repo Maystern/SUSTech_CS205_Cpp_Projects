@@ -1,8 +1,8 @@
 bin/CMakeFiles/matmulTest.dir/matmul.o: \
- /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/src/matmul.c \
+ /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/src/matmul.c \
  /usr/include/stdc-predef.h \
- /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/src/matmul.h \
- /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/src/matrix.h \
+ /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/src/matmul.h \
+ /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/src/matrix.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \

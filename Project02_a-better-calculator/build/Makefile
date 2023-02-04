@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cpp_fall2022/project02
+CMAKE_SOURCE_DIR = /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cpp_fall2022/project02/build
+CMAKE_BINARY_DIR = /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cpp_fall2022/project02/build/CMakeFiles /home/cpp_fall2022/project02/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/build/CMakeFiles /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cpp_fall2022/project02/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

@@ -1,4 +1,4 @@
-# Install script for directory: /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C
+# Install script for directory: /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/build/bin/cmake_install.cmake")
+  include("/home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/build/bin/cmake_install.cmake")
 
 endif()
 
@@ -56,5 +56,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

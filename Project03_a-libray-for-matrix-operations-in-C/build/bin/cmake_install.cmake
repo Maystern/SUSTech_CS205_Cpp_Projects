@@ -1,4 +1,4 @@
-# Install script for directory: /home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/src
+# Install script for directory: /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

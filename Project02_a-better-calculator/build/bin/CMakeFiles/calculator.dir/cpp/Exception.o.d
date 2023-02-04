@@ -1,7 +1,7 @@
 bin/CMakeFiles/calculator.dir/cpp/Exception.o: \
- /home/cpp_fall2022/project02/src/cpp/Exception.cpp \
+ /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/src/cpp/Exception.cpp \
  /usr/include/stdc-predef.h \
- /home/cpp_fall2022/project02/src/cpp/../headfile/Exception.hpp \
+ /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/src/cpp/../headfile/Exception.hpp \
  /usr/include/c++/11/exception \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

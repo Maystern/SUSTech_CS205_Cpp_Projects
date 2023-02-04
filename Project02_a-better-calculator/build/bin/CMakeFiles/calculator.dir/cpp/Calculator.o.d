@@ -1,8 +1,8 @@
 bin/CMakeFiles/calculator.dir/cpp/Calculator.o: \
- /home/cpp_fall2022/project02/src/cpp/Calculator.cpp \
+ /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/src/cpp/Calculator.cpp \
  /usr/include/stdc-predef.h \
- /home/cpp_fall2022/project02/src/cpp/../headfile/Calculator.hpp \
- /home/cpp_fall2022/project02/src/cpp/../headfile/BigNumber.hpp \
+ /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/src/cpp/../headfile/Calculator.hpp \
+ /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/src/cpp/../headfile/BigNumber.hpp \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -145,12 +145,12 @@ bin/CMakeFiles/calculator.dir/cpp/Calculator.o: \
  /usr/include/c++/11/bits/erase_if.h /usr/include/c++/11/stack \
  /usr/include/c++/11/deque /usr/include/c++/11/bits/stl_deque.h \
  /usr/include/c++/11/bits/deque.tcc /usr/include/c++/11/bits/stl_stack.h \
- /home/cpp_fall2022/project02/src/cpp/../headfile/Constant.hpp \
- /home/cpp_fall2022/project02/src/cpp/../headfile/Exception.hpp \
+ /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/src/cpp/../headfile/Constant.hpp \
+ /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/src/cpp/../headfile/Exception.hpp \
  /usr/include/c++/11/exception /usr/include/c++/11/bits/exception_ptr.h \
  /usr/include/c++/11/bits/cxxabi_init_exception.h \
  /usr/include/c++/11/typeinfo /usr/include/c++/11/bits/nested_exception.h \
- /home/cpp_fall2022/project02/src/cpp/../headfile/NumberCheck.hpp \
+ /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/src/cpp/../headfile/NumberCheck.hpp \
  /usr/include/c++/11/iostream /usr/include/c++/11/ostream \
  /usr/include/c++/11/ios /usr/include/c++/11/bits/ios_base.h \
  /usr/include/c++/11/bits/locale_classes.h \

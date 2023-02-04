@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C
+CMAKE_SOURCE_DIR = /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/build
+CMAKE_BINARY_DIR = /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/build
 
 # Include any dependencies generated for this target.
 include bin/CMakeFiles/matmulTest.dir/depend.make
@@ -72,44 +72,44 @@ include bin/CMakeFiles/matmulTest.dir/flags.make
 bin/CMakeFiles/matmulTest.dir/matmul.o: bin/CMakeFiles/matmulTest.dir/flags.make
 bin/CMakeFiles/matmulTest.dir/matmul.o: ../src/matmul.c
 bin/CMakeFiles/matmulTest.dir/matmul.o: bin/CMakeFiles/matmulTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object bin/CMakeFiles/matmulTest.dir/matmul.o"
-	cd /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/build/bin && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT bin/CMakeFiles/matmulTest.dir/matmul.o -MF CMakeFiles/matmulTest.dir/matmul.o.d -o CMakeFiles/matmulTest.dir/matmul.o -c /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/src/matmul.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object bin/CMakeFiles/matmulTest.dir/matmul.o"
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/build/bin && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT bin/CMakeFiles/matmulTest.dir/matmul.o -MF CMakeFiles/matmulTest.dir/matmul.o.d -o CMakeFiles/matmulTest.dir/matmul.o -c /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/src/matmul.c
 
 bin/CMakeFiles/matmulTest.dir/matmul.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/matmulTest.dir/matmul.i"
-	cd /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/build/bin && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/src/matmul.c > CMakeFiles/matmulTest.dir/matmul.i
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/build/bin && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/src/matmul.c > CMakeFiles/matmulTest.dir/matmul.i
 
 bin/CMakeFiles/matmulTest.dir/matmul.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/matmulTest.dir/matmul.s"
-	cd /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/build/bin && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/src/matmul.c -o CMakeFiles/matmulTest.dir/matmul.s
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/build/bin && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/src/matmul.c -o CMakeFiles/matmulTest.dir/matmul.s
 
 bin/CMakeFiles/matmulTest.dir/matrix.o: bin/CMakeFiles/matmulTest.dir/flags.make
 bin/CMakeFiles/matmulTest.dir/matrix.o: ../src/matrix.c
 bin/CMakeFiles/matmulTest.dir/matrix.o: bin/CMakeFiles/matmulTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object bin/CMakeFiles/matmulTest.dir/matrix.o"
-	cd /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/build/bin && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT bin/CMakeFiles/matmulTest.dir/matrix.o -MF CMakeFiles/matmulTest.dir/matrix.o.d -o CMakeFiles/matmulTest.dir/matrix.o -c /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/src/matrix.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object bin/CMakeFiles/matmulTest.dir/matrix.o"
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/build/bin && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT bin/CMakeFiles/matmulTest.dir/matrix.o -MF CMakeFiles/matmulTest.dir/matrix.o.d -o CMakeFiles/matmulTest.dir/matrix.o -c /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/src/matrix.c
 
 bin/CMakeFiles/matmulTest.dir/matrix.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/matmulTest.dir/matrix.i"
-	cd /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/build/bin && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/src/matrix.c > CMakeFiles/matmulTest.dir/matrix.i
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/build/bin && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/src/matrix.c > CMakeFiles/matmulTest.dir/matrix.i
 
 bin/CMakeFiles/matmulTest.dir/matrix.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/matmulTest.dir/matrix.s"
-	cd /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/build/bin && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/src/matrix.c -o CMakeFiles/matmulTest.dir/matrix.s
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/build/bin && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/src/matrix.c -o CMakeFiles/matmulTest.dir/matrix.s
 
 bin/CMakeFiles/matmulTest.dir/test.o: bin/CMakeFiles/matmulTest.dir/flags.make
 bin/CMakeFiles/matmulTest.dir/test.o: ../src/test.c
 bin/CMakeFiles/matmulTest.dir/test.o: bin/CMakeFiles/matmulTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object bin/CMakeFiles/matmulTest.dir/test.o"
-	cd /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/build/bin && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT bin/CMakeFiles/matmulTest.dir/test.o -MF CMakeFiles/matmulTest.dir/test.o.d -o CMakeFiles/matmulTest.dir/test.o -c /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/src/test.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object bin/CMakeFiles/matmulTest.dir/test.o"
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/build/bin && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT bin/CMakeFiles/matmulTest.dir/test.o -MF CMakeFiles/matmulTest.dir/test.o.d -o CMakeFiles/matmulTest.dir/test.o -c /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/src/test.c
 
 bin/CMakeFiles/matmulTest.dir/test.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/matmulTest.dir/test.i"
-	cd /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/build/bin && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/src/test.c > CMakeFiles/matmulTest.dir/test.i
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/build/bin && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/src/test.c > CMakeFiles/matmulTest.dir/test.i
 
 bin/CMakeFiles/matmulTest.dir/test.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/matmulTest.dir/test.s"
-	cd /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/build/bin && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/src/test.c -o CMakeFiles/matmulTest.dir/test.s
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/build/bin && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/src/test.c -o CMakeFiles/matmulTest.dir/test.s
 
 # Object files for target matmulTest
 matmulTest_OBJECTS = \
@@ -125,18 +125,18 @@ bin/matmulTest: bin/CMakeFiles/matmulTest.dir/matrix.o
 bin/matmulTest: bin/CMakeFiles/matmulTest.dir/test.o
 bin/matmulTest: bin/CMakeFiles/matmulTest.dir/build.make
 bin/matmulTest: bin/CMakeFiles/matmulTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable matmulTest"
-	cd /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/build/bin && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/matmulTest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable matmulTest"
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/build/bin && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/matmulTest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 bin/CMakeFiles/matmulTest.dir/build: bin/matmulTest
 .PHONY : bin/CMakeFiles/matmulTest.dir/build
 
 bin/CMakeFiles/matmulTest.dir/clean:
-	cd /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/build/bin && $(CMAKE_COMMAND) -P CMakeFiles/matmulTest.dir/cmake_clean.cmake
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/build/bin && $(CMAKE_COMMAND) -P CMakeFiles/matmulTest.dir/cmake_clean.cmake
 .PHONY : bin/CMakeFiles/matmulTest.dir/clean
 
 bin/CMakeFiles/matmulTest.dir/depend:
-	cd /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/src /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/build /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/build/bin /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/build/bin/CMakeFiles/matmulTest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/src /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/build /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/build/bin /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/build/bin/CMakeFiles/matmulTest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : bin/CMakeFiles/matmulTest.dir/depend
 

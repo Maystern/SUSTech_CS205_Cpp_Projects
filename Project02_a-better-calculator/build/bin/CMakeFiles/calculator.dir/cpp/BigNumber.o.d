@@ -1,7 +1,7 @@
 bin/CMakeFiles/calculator.dir/cpp/BigNumber.o: \
- /home/cpp_fall2022/project02/src/cpp/BigNumber.cpp \
+ /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/src/cpp/BigNumber.cpp \
  /usr/include/stdc-predef.h \
- /home/cpp_fall2022/project02/src/cpp/../headfile/BigNumber.hpp \
+ /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/src/cpp/../headfile/BigNumber.hpp \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -133,12 +133,12 @@ bin/CMakeFiles/calculator.dir/cpp/BigNumber.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /home/cpp_fall2022/project02/src/cpp/../headfile/Constant.hpp \
- /home/cpp_fall2022/project02/src/cpp/../headfile/Exception.hpp \
+ /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/src/cpp/../headfile/Constant.hpp \
+ /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/src/cpp/../headfile/Exception.hpp \
  /usr/include/c++/11/exception /usr/include/c++/11/bits/exception_ptr.h \
  /usr/include/c++/11/bits/cxxabi_init_exception.h \
  /usr/include/c++/11/typeinfo /usr/include/c++/11/bits/nested_exception.h \
- /home/cpp_fall2022/project02/src/cpp/../headfile/NumberCheck.hpp \
+ /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/src/cpp/../headfile/NumberCheck.hpp \
  /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \

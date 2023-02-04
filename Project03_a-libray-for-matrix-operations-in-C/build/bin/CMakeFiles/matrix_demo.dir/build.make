@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C
+CMAKE_SOURCE_DIR = /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build
+CMAKE_BINARY_DIR = /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/build
 
 # Include any dependencies generated for this target.
 include bin/CMakeFiles/matrix_demo.dir/depend.make
@@ -72,16 +72,16 @@ include bin/CMakeFiles/matrix_demo.dir/flags.make
 bin/CMakeFiles/matrix_demo.dir/main.o: bin/CMakeFiles/matrix_demo.dir/flags.make
 bin/CMakeFiles/matrix_demo.dir/main.o: ../src/main.c
 bin/CMakeFiles/matrix_demo.dir/main.o: bin/CMakeFiles/matrix_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object bin/CMakeFiles/matrix_demo.dir/main.o"
-	cd /home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build/bin && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT bin/CMakeFiles/matrix_demo.dir/main.o -MF CMakeFiles/matrix_demo.dir/main.o.d -o CMakeFiles/matrix_demo.dir/main.o -c /home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object bin/CMakeFiles/matrix_demo.dir/main.o"
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/build/bin && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT bin/CMakeFiles/matrix_demo.dir/main.o -MF CMakeFiles/matrix_demo.dir/main.o.d -o CMakeFiles/matrix_demo.dir/main.o -c /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/src/main.c
 
 bin/CMakeFiles/matrix_demo.dir/main.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/matrix_demo.dir/main.i"
-	cd /home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build/bin && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/src/main.c > CMakeFiles/matrix_demo.dir/main.i
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/build/bin && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/src/main.c > CMakeFiles/matrix_demo.dir/main.i
 
 bin/CMakeFiles/matrix_demo.dir/main.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/matrix_demo.dir/main.s"
-	cd /home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build/bin && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/src/main.c -o CMakeFiles/matrix_demo.dir/main.s
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/build/bin && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/src/main.c -o CMakeFiles/matrix_demo.dir/main.s
 
 # Object files for target matrix_demo
 matrix_demo_OBJECTS = \
@@ -94,18 +94,18 @@ bin/matrix_demo: bin/CMakeFiles/matrix_demo.dir/main.o
 bin/matrix_demo: bin/CMakeFiles/matrix_demo.dir/build.make
 bin/matrix_demo: bin/libmatrix.so
 bin/matrix_demo: bin/CMakeFiles/matrix_demo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable matrix_demo"
-	cd /home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build/bin && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/matrix_demo.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable matrix_demo"
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/build/bin && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/matrix_demo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 bin/CMakeFiles/matrix_demo.dir/build: bin/matrix_demo
 .PHONY : bin/CMakeFiles/matrix_demo.dir/build
 
 bin/CMakeFiles/matrix_demo.dir/clean:
-	cd /home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build/bin && $(CMAKE_COMMAND) -P CMakeFiles/matrix_demo.dir/cmake_clean.cmake
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/build/bin && $(CMAKE_COMMAND) -P CMakeFiles/matrix_demo.dir/cmake_clean.cmake
 .PHONY : bin/CMakeFiles/matrix_demo.dir/clean
 
 bin/CMakeFiles/matrix_demo.dir/depend:
-	cd /home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C /home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/src /home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build /home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build/bin /home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build/bin/CMakeFiles/matrix_demo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/src /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/build /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/build/bin /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/build/bin/CMakeFiles/matrix_demo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : bin/CMakeFiles/matrix_demo.dir/depend
 

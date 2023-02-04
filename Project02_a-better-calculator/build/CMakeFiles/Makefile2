@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cpp_fall2022/project02
+CMAKE_SOURCE_DIR = /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cpp_fall2022/project02/build
+CMAKE_BINARY_DIR = /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -96,14 +96,14 @@ bin/clean: bin/CMakeFiles/calculator.dir/clean
 bin/CMakeFiles/calculator.dir/all:
 	$(MAKE) $(MAKESILENT) -f bin/CMakeFiles/calculator.dir/build.make bin/CMakeFiles/calculator.dir/depend
 	$(MAKE) $(MAKESILENT) -f bin/CMakeFiles/calculator.dir/build.make bin/CMakeFiles/calculator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cpp_fall2022/project02/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target calculator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target calculator"
 .PHONY : bin/CMakeFiles/calculator.dir/all
 
 # Build rule for subdir invocation for target.
 bin/CMakeFiles/calculator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cpp_fall2022/project02/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/CMakeFiles/calculator.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cpp_fall2022/project02/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/build/CMakeFiles 0
 .PHONY : bin/CMakeFiles/calculator.dir/rule
 
 # Convenience name for target.

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C
+CMAKE_SOURCE_DIR = /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/build
+CMAKE_BINARY_DIR = /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/build/CMakeFiles /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/build/bin//CMakeFiles/progress.marks
-	cd /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/build/CMakeFiles 0
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/build/CMakeFiles /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/build/bin//CMakeFiles/progress.marks
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/clean
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/preinstall
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/preinstall
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 bin/CMakeFiles/matmulTest.dir/rule:
-	cd /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/CMakeFiles/matmulTest.dir/rule
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/CMakeFiles/matmulTest.dir/rule
 .PHONY : bin/CMakeFiles/matmulTest.dir/rule
 
 # Convenience name for target.
@@ -127,52 +127,52 @@ matmulTest: bin/CMakeFiles/matmulTest.dir/rule
 
 # fast build rule for target.
 matmulTest/fast:
-	cd /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/matmulTest.dir/build.make bin/CMakeFiles/matmulTest.dir/build
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/matmulTest.dir/build.make bin/CMakeFiles/matmulTest.dir/build
 .PHONY : matmulTest/fast
 
 # target to build an object file
 matmul.o:
-	cd /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/matmulTest.dir/build.make bin/CMakeFiles/matmulTest.dir/matmul.o
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/matmulTest.dir/build.make bin/CMakeFiles/matmulTest.dir/matmul.o
 .PHONY : matmul.o
 
 # target to preprocess a source file
 matmul.i:
-	cd /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/matmulTest.dir/build.make bin/CMakeFiles/matmulTest.dir/matmul.i
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/matmulTest.dir/build.make bin/CMakeFiles/matmulTest.dir/matmul.i
 .PHONY : matmul.i
 
 # target to generate assembly for a file
 matmul.s:
-	cd /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/matmulTest.dir/build.make bin/CMakeFiles/matmulTest.dir/matmul.s
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/matmulTest.dir/build.make bin/CMakeFiles/matmulTest.dir/matmul.s
 .PHONY : matmul.s
 
 # target to build an object file
 matrix.o:
-	cd /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/matmulTest.dir/build.make bin/CMakeFiles/matmulTest.dir/matrix.o
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/matmulTest.dir/build.make bin/CMakeFiles/matmulTest.dir/matrix.o
 .PHONY : matrix.o
 
 # target to preprocess a source file
 matrix.i:
-	cd /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/matmulTest.dir/build.make bin/CMakeFiles/matmulTest.dir/matrix.i
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/matmulTest.dir/build.make bin/CMakeFiles/matmulTest.dir/matrix.i
 .PHONY : matrix.i
 
 # target to generate assembly for a file
 matrix.s:
-	cd /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/matmulTest.dir/build.make bin/CMakeFiles/matmulTest.dir/matrix.s
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/matmulTest.dir/build.make bin/CMakeFiles/matmulTest.dir/matrix.s
 .PHONY : matrix.s
 
 # target to build an object file
 test.o:
-	cd /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/matmulTest.dir/build.make bin/CMakeFiles/matmulTest.dir/test.o
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/matmulTest.dir/build.make bin/CMakeFiles/matmulTest.dir/test.o
 .PHONY : test.o
 
 # target to preprocess a source file
 test.i:
-	cd /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/matmulTest.dir/build.make bin/CMakeFiles/matmulTest.dir/test.i
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/matmulTest.dir/build.make bin/CMakeFiles/matmulTest.dir/test.i
 .PHONY : test.i
 
 # target to generate assembly for a file
 test.s:
-	cd /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/matmulTest.dir/build.make bin/CMakeFiles/matmulTest.dir/test.s
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/matmulTest.dir/build.make bin/CMakeFiles/matmulTest.dir/test.s
 .PHONY : test.s
 
 # Help Target
@@ -204,6 +204,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/cpp_fall2022/SUSTech_cpp_Project04_matrix-multiplication-in-C/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project04_matrix-multiplication-in-C/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

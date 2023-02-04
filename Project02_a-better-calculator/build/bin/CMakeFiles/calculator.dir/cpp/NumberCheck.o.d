@@ -1,7 +1,7 @@
 bin/CMakeFiles/calculator.dir/cpp/NumberCheck.o: \
- /home/cpp_fall2022/project02/src/cpp/NumberCheck.cpp \
+ /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/src/cpp/NumberCheck.cpp \
  /usr/include/stdc-predef.h \
- /home/cpp_fall2022/project02/src/cpp/../headfile/NumberCheck.hpp \
+ /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project02_a-better-calculator/src/cpp/../headfile/NumberCheck.hpp \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C
+CMAKE_SOURCE_DIR = /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build
+CMAKE_BINARY_DIR = /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build/CMakeFiles /home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build/bin//CMakeFiles/progress.marks
-	cd /home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build/CMakeFiles 0
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/build/CMakeFiles /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/build/bin//CMakeFiles/progress.marks
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/clean
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/preinstall
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/preinstall
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 bin/CMakeFiles/matrix.dir/rule:
-	cd /home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/CMakeFiles/matrix.dir/rule
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/CMakeFiles/matrix.dir/rule
 .PHONY : bin/CMakeFiles/matrix.dir/rule
 
 # Convenience name for target.
@@ -172,12 +172,12 @@ matrix: bin/CMakeFiles/matrix.dir/rule
 
 # fast build rule for target.
 matrix/fast:
-	cd /home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/matrix.dir/build.make bin/CMakeFiles/matrix.dir/build
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/matrix.dir/build.make bin/CMakeFiles/matrix.dir/build
 .PHONY : matrix/fast
 
 # Convenience name for target.
 bin/CMakeFiles/matrix_demo.dir/rule:
-	cd /home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/CMakeFiles/matrix_demo.dir/rule
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/CMakeFiles/matrix_demo.dir/rule
 .PHONY : bin/CMakeFiles/matrix_demo.dir/rule
 
 # Convenience name for target.
@@ -186,37 +186,37 @@ matrix_demo: bin/CMakeFiles/matrix_demo.dir/rule
 
 # fast build rule for target.
 matrix_demo/fast:
-	cd /home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/matrix_demo.dir/build.make bin/CMakeFiles/matrix_demo.dir/build
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/matrix_demo.dir/build.make bin/CMakeFiles/matrix_demo.dir/build
 .PHONY : matrix_demo/fast
 
 # target to build an object file
 main.o:
-	cd /home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/matrix_demo.dir/build.make bin/CMakeFiles/matrix_demo.dir/main.o
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/matrix_demo.dir/build.make bin/CMakeFiles/matrix_demo.dir/main.o
 .PHONY : main.o
 
 # target to preprocess a source file
 main.i:
-	cd /home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/matrix_demo.dir/build.make bin/CMakeFiles/matrix_demo.dir/main.i
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/matrix_demo.dir/build.make bin/CMakeFiles/matrix_demo.dir/main.i
 .PHONY : main.i
 
 # target to generate assembly for a file
 main.s:
-	cd /home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/matrix_demo.dir/build.make bin/CMakeFiles/matrix_demo.dir/main.s
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/matrix_demo.dir/build.make bin/CMakeFiles/matrix_demo.dir/main.s
 .PHONY : main.s
 
 # target to build an object file
 matrix.o:
-	cd /home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/matrix.dir/build.make bin/CMakeFiles/matrix.dir/matrix.o
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/matrix.dir/build.make bin/CMakeFiles/matrix.dir/matrix.o
 .PHONY : matrix.o
 
 # target to preprocess a source file
 matrix.i:
-	cd /home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/matrix.dir/build.make bin/CMakeFiles/matrix.dir/matrix.i
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/matrix.dir/build.make bin/CMakeFiles/matrix.dir/matrix.i
 .PHONY : matrix.i
 
 # target to generate assembly for a file
 matrix.s:
-	cd /home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/matrix.dir/build.make bin/CMakeFiles/matrix.dir/matrix.s
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/matrix.dir/build.make bin/CMakeFiles/matrix.dir/matrix.s
 .PHONY : matrix.s
 
 # Help Target
@@ -250,6 +250,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

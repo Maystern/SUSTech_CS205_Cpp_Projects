@@ -1,5 +1,5 @@
 bin/CMakeFiles/matrix_demo.dir/main.o: \
- /home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/src/main.c \
+ /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/src/main.c \
  /usr/include/stdc-predef.h /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -30,4 +30,4 @@ bin/CMakeFiles/matrix_demo.dir/main.o: \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
- /home/cpp_fall2022/SUSTech_cpp_Project03_a-libray-for-matrix-operations-in-C/src/matrix.h
+ /home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Project03_a-libray-for-matrix-operations-in-C/src/matrix.h
