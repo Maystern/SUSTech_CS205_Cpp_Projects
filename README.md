@@ -11,21 +11,21 @@
 
 | 项目  | 得分 | 中位数 | 平均数 | 评价                                                     |
 | --------- | -------- | -------- | -------- | ------------------------------------------------------------ |
-| Project 1 | 93       | 85       | 83.95    | The report is good.                                          |
-| Project 2 | 95       | 88       | 84.38    | Great work! You have worked hard and <br/>put a lot of time into the project. Hope you enjoy it. :) |
-| Project 3 | 87       | 82       | 80.32    | It will be better if Matrix::rows is size_t.                 |
-| Project 4 | 98       | 85       | 83.39    | Awesome!                                                     |
-| Project 5 | 90       | 83       | 78.71    | 在循环里高频次调用getDataValue ()，可能很伤效率。<br/>getDataValue()里面只有一行代码，是inline，编译器可能优化掉。<br/>但最好还是只调用一次，将返回值存在一个局部变量里。. |
-| 平均值    | 92.6     | 84.6     | 82.15    | -                                                            |
+| Project 1 | 93    | 85       | 83.95    | The report is good.                                          |
+| Project 2 | 95    | 88       | 84.38    | Great work! You have worked hard and <br/>put a lot of time into the project. Hope you enjoy it. :) |
+| Project 3 | 87    | 82       | 80.32    | It will be better if Matrix::rows is size_t.                 |
+| Project 4 | 98    | 85       | 83.39    | Awesome!                                                     |
+| Project 5 | 90    | 83       | 78.71    | 在循环里高频次调用getDataValue ()，可能很伤效率。<br/>getDataValue()里面只有一行代码，是inline，编译器可能优化掉。<br/>但最好还是只调用一次，将返回值存在一个局部变量里。. |
+| Average | 92.60    | 84.60    | 82.15    | -                                                            |
 
 ## 课程成绩
 
-| 项目                                 | 权重 | 得分 |
-| ------------------------------------ | ---- | ---- |
-| 理论课 Quiz（除去成绩最差的一次）    | 5%   | 98.3 |
-| Lab 课签到练习（除去成绩最差的一次） | 5%   | 100  |
-| 课程项目                             | 65%  | 92.6 |
-| 期末考试                             | 25%  | -    |
+| 项目         | 权重 | 得分 |
+| ------------ | ---- | ---- |
+| Quiz         | 5%   | 98.3 |
+| Lab Exercise | 5%   | 100  |
+| Project      | 65%  | 92.6 |
+| Exam         | 25%  | -    |
 
 ## 项目说明
 
