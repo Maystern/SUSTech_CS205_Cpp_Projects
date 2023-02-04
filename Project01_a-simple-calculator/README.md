@@ -16,11 +16,11 @@
 - 文件输入输出支持：使用`./mul file1 file2` 指令可以将存储于文件中的数据读入，并且计算。
 - 错误判断支持：当输入数据出现问题，将打印对应的出错信息，方便调试。
 
-您可以在这里查看项目要求：[project02要求](https://github.com/Maystern/SUSTech_cpp_Project02_a-better-calculator/blob/master/doc/project2.pdf)。
+您可以在这里查看项目要求：[project01要求](https://github.com/Maystern/SUSTech_CS205_Cpp_Projects/blob/main/Project01_a-simple-calculator/project1.pdf)。
 
-您可以在这里查看我的项目pdf报告：[project02项目报告pdf](https://github.com/Maystern/SUSTech_cpp_Project02_a-better-calculator/blob/master/doc/Project02%20A%20Better%20Calculator.pdf)。
+您可以在这里查看我的项目pdf报告：[project01项目报告pdf](https://github.com/Maystern/SUSTech_CS205_Cpp_Projects/blob/main/Project01_a-simple-calculator/report.pdf)。
 
-您可以在这里查看我的项目md报告：[project02项目报告md](https://github.com/Maystern/SUSTech_cpp_Project02_a-better-calculator/blob/master/doc/Project02%20A%20Better%20Calculator.md)。
+您可以在这里查看我的项目md报告：[project01项目报告md](https://github.com/Maystern/SUSTech_CS205_Cpp_Projects/blob/main/Project01_a-simple-calculator/report.md)。
 
 ## 如何运行
 
