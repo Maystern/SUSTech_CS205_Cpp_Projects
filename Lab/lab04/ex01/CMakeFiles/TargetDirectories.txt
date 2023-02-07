@@ -1,3 +1,0 @@
-/home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Lab/lab04/ex01/CMakeFiles/Stuinfo.dir
-/home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Lab/lab04/ex01/CMakeFiles/edit_cache.dir
-/home/cpp_fall2022/SUSTech_CS205_Cpp_Projects/Lab/lab04/ex01/CMakeFiles/rebuild_cache.dir
