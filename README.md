@@ -29,6 +29,8 @@
 
 - Final: 88
 
+![image-20230304011234674](https://raw.githubusercontent.com/Maystern/picbed/main/image-20230304011234674.png)
+
 ## 项目说明
 
 ### Project 1: A Simple Calculator
