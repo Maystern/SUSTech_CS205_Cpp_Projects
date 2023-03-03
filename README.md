@@ -25,7 +25,9 @@
 | Quiz         | 5%   | 98.3 |
 | Lab Exercise | 5%   | 100  |
 | Project      | 65%  | 92.6 |
-| Exam         | 25%  | -    |
+| Exam         | 25%  | 70   |
+
+- Final: 87
 
 ## 项目说明
 
